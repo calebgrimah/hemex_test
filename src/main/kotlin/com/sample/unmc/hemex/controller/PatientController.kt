@@ -118,7 +118,7 @@ class PatientController {
                 "      ]\n" +
                 "    },\n" +
                 "    {\n" +
-                "      \"PatientID\": \"1-001-0003-010-002\",\n" +
+                "      \"PatientID\": \"1-001-0002-010-002\",\n" +
                 "      \"Site\": \"Site 2\",\n" +
                 "      \"Results\": [\n" +
                 "        {\n" +
