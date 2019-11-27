@@ -12,7 +12,7 @@ class PatientController {
 
 
     @PostMapping("/PatientResults/find")
-    fun getPatientData(@RequestBody data : PatienData) : String{
+    fun getPatientData() : String{
         return "{\n" +
                 "  \"TotalResults\": 3,\n" +
                 "  \"ResultsPerPage\": 100,\n" +
@@ -140,12 +140,12 @@ class PatientController {
     }
 
     @PostMapping("/hello")
-    fun hello(@RequestBody data : PatienData) : String{
+    fun hello() : String{
         return "Hello World"
     }
 
     @PostMapping("/Users/authorize")
-    fun tokenString(@RequestBody data : PatienData) : String{
+    fun tokenString() : String{
         return "{\n" +
                 "    \"access_token\": \"YOLO\"\n" +
                 "}"
