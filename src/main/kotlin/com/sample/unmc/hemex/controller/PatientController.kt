@@ -1,6 +1,8 @@
 package com.sample.unmc.hemex.controller
 
-import org.springframework.web.bind.annotation.GetMapping
+import com.sample.unmc.hemex.model.PatienData
+import org.springframework.web.bind.annotation.PostMapping
+import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RestController
 
 
@@ -9,8 +11,8 @@ class PatientController {
 
 
 
-    @GetMapping("/PatientResults/find")
-    fun getPatientData() : String{
+    @PostMapping("/PatientResults/find")
+    fun getPatientData(@RequestBody data : PatienData) : String{
         return "{\n" +
                 "  \"TotalResults\": 3,\n" +
                 "  \"ResultsPerPage\": 100,\n" +
@@ -137,13 +139,13 @@ class PatientController {
                 "}"
     }
 
-    @GetMapping("/hello")
-    fun hello() : String{
+    @PostMapping("/hello")
+    fun hello(@RequestBody data : PatienData) : String{
         return "Hello World"
     }
 
-    @GetMapping("/Users/authorize")
-    fun tokenString() : String{
+    @PostMapping("/Users/authorize")
+    fun tokenString(@RequestBody data : PatienData) : String{
         return "{\n" +
                 "    \"access_token\": \"YOLO\"\n" +
                 "}"
