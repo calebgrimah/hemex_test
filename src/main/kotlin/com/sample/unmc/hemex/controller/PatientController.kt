@@ -289,8 +289,8 @@ class PatientController {
           "Time": "18:53 PM",
           "Date": "2019-10-02",
           "Interpretation": "N/A",
-          "Note": "PATIENT PRESENT WITH FEVER",
-          "Phenotype": "N/A",
+          "Note": "PATIENT PRESENT MALARIA ON A WHOLE NEW LEVEL",
+          "Phenotype": "BE/SEVERE",
           "SCDBand": [],
           "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/c1fd837d69f54eb99cc260c273a533a2.png"
         }
