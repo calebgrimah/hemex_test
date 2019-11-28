@@ -279,13 +279,13 @@ class PatientController {
       ]
     },
     {
-      "PatientID": "1-001-0011-002-001",
+      "PatientID": "1-001-0006-003-001",
       "Site": "Site 2",
       "Results": [
         {
           "TestID": 10,
           "DeviceID": "Alpha3B",
-          "Type": "Malaria",
+          "Type": "Malaria For Mr GodsWill",
           "Time": "18:53 PM",
           "Date": "2019-10-02",
           "Interpretation": "N/A",
