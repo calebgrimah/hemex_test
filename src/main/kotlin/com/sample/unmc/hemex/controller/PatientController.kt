@@ -139,48 +139,13 @@ class PatientController {
 //                "}"
 
         return """
-            {
+           {
   "TotalResults": 3,
   "ResultsPerPage": 100,
   "ResultsPage": 1,
   "Results": [
     {
-      "PatientID": "1-001-0006-001-008",
-      "Site": "N/A",
-      "Results": [
-        {
-          "TestID": 11,
-          "DeviceID": "Alpha3B",
-          "Type": "SCD",
-          "Time": "18:59 PM",
-          "Date": "2019-10-02",
-          "Interpretation": "slow_start & low_current & roi_not_nominal",
-          "Note": "Bello requested for this. He will see it and pass the ticket. AMEN",
-          "Phenotype": "Anything",
-          "SCDBand": [
-            {
-              "HbType": "A2\nC\nE",
-              "Percentage": 34
-            },
-            {
-              "HbType": "S",
-              "Percentage": 20
-            },
-            {
-              "HbType": "F",
-              "Percentage": 10
-            },
-            {
-              "HbType": "A",
-              "Percentage": 36
-            }
-          ],
-          "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/52b2d2c207754ad3ad775dc708925a51.png"
-        }
-      ]
-    },
-    {
-      "PatientID": "1-001-0006-001-008",
+      "PatientID": "47-001-0001-002-001",
       "Site": "N/A",
       "Results": [
         {
@@ -215,7 +180,112 @@ class PatientController {
       ]
     },
     {
-      "PatientID": "1-001-0006-003-008",
+      "PatientID": "47-001-0001-002-002",
+      "Site": "N/A",
+      "Results": [
+        {
+          "TestID": 11,
+          "DeviceID": "Alpha3B",
+          "Type": "SCD",
+          "Time": "18:59 PM",
+          "Date": "2019-10-02",
+          "Interpretation": "slow_start & low_current & roi_not_nominal",
+          "Note": "",
+          "Phenotype": "Retest",
+          "SCDBand": [
+            {
+              "HbType": "A2\nC\nE",
+              "Percentage": 0
+            },
+            {
+              "HbType": "S",
+              "Percentage": 0
+            },
+            {
+              "HbType": "F",
+              "Percentage": 0
+            },
+            {
+              "HbType": "A",
+              "Percentage": 0
+            }
+          ],
+          "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/52b2d2c207754ad3ad775dc708925a51.png"
+        }
+      ]
+    },
+    {
+      "PatientID": "47-001-0001-002-003",
+      "Site": "N/A",
+      "Results": [
+        {
+          "TestID": 11,
+          "DeviceID": "Alpha3B",
+          "Type": "SCD",
+          "Time": "18:59 PM",
+          "Date": "2019-10-02",
+          "Interpretation": "slow_start & low_current & roi_not_nominal",
+          "Note": "",
+          "Phenotype": "Retest",
+          "SCDBand": [
+            {
+              "HbType": "A2\nC\nE",
+              "Percentage": 0
+            },
+            {
+              "HbType": "S",
+              "Percentage": 0
+            },
+            {
+              "HbType": "F",
+              "Percentage": 0
+            },
+            {
+              "HbType": "A",
+              "Percentage": 0
+            }
+          ],
+          "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/52b2d2c207754ad3ad775dc708925a51.png"
+        }
+      ]
+    },
+    {
+      "PatientID": "47-001-0002-002-001",
+      "Site": "N/A",
+      "Results": [
+        {
+          "TestID": 11,
+          "DeviceID": "Alpha3B",
+          "Type": "SCD",
+          "Time": "18:59 PM",
+          "Date": "2019-10-02",
+          "Interpretation": "slow_start & low_current & roi_not_nominal",
+          "Note": "",
+          "Phenotype": "Retest",
+          "SCDBand": [
+            {
+              "HbType": "A2\nC\nE",
+              "Percentage": 0
+            },
+            {
+              "HbType": "S",
+              "Percentage": 0
+            },
+            {
+              "HbType": "F",
+              "Percentage": 0
+            },
+            {
+              "HbType": "A",
+              "Percentage": 0
+            }
+          ],
+          "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/52b2d2c207754ad3ad775dc708925a51.png"
+        }
+      ]
+    },
+    {
+      "PatientID": "1-001-0002-002-004",
       "Site": "Site 2",
       "Results": [
         {
@@ -279,18 +349,54 @@ class PatientController {
       ]
     },
     {
-      "PatientID": "1-001-0006-003-001",
+      "PatientID": "47-001-0002-009-001",
       "Site": "Site 2",
       "Results": [
         {
           "TestID": 10,
           "DeviceID": "Alpha3B",
-          "Type": "Malaria For Mr GodsWill",
+          "Type": "Malaria",
           "Time": "18:53 PM",
           "Date": "2019-10-02",
           "Interpretation": "N/A",
-          "Note": "PATIENT PRESENT MALARIA ON A WHOLE NEW LEVEL",
-          "Phenotype": "BE/SEVERE",
+          "Note": "PATIENT PRESENT WITH FEVER",
+          "Phenotype": "N/A",
+          "SCDBand": [],
+          "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/c1fd837d69f54eb99cc260c273a533a2.png"
+        }
+      ]
+    },
+    {
+      "PatientID": "47-001-0002-009-002",
+      "Site": "Site 2",
+      "Results": [
+        {
+          "TestID": 10,
+          "DeviceID": "Alpha3B",
+          "Type": "Malaria",
+          "Time": "18:53 PM",
+          "Date": "2019-10-02",
+          "Interpretation": "N/A",
+          "Note": "PATIENT PRESENT WITH FEVER",
+          "Phenotype": "N/A",
+          "SCDBand": [],
+          "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/c1fd837d69f54eb99cc260c273a533a2.png"
+        }
+      ]
+    },
+    {
+      "PatientID": "47-001-0001-009-001",
+      "Site": "Site 2",
+      "Results": [
+        {
+          "TestID": 10,
+          "DeviceID": "Alpha3B",
+          "Type": "Malaria",
+          "Time": "18:53 PM",
+          "Date": "2019-10-02",
+          "Interpretation": "N/A",
+          "Note": "PATIENT PRESENT WITH FEVER",
+          "Phenotype": "N/A",
           "SCDBand": [],
           "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/c1fd837d69f54eb99cc260c273a533a2.png"
         }
