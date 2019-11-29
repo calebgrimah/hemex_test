@@ -145,7 +145,7 @@ class PatientController {
   "ResultsPage": 1,
   "Results": [
     {
-      "PatientID": "1-001-0009-002-001",
+      "PatientID": "1-001-0006-001-008",
       "Site": "N/A",
       "Results": [
         {
@@ -180,7 +180,7 @@ class PatientController {
       ]
     },
     {
-      "PatientID": "1-001-0002-002-002",
+      "PatientID": "1-001-0006-001-001",
       "Site": "N/A",
       "Results": [
         {
@@ -215,7 +215,7 @@ class PatientController {
       ]
     },
     {
-      "PatientID": "1-001-0002-002-004",
+      "PatientID": "1-001-0006-003-002",
       "Site": "Site 2",
       "Results": [
         {
