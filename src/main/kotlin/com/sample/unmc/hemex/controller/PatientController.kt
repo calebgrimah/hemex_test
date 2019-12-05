@@ -1,8 +1,6 @@
 package com.sample.unmc.hemex.controller
 
-import com.sample.unmc.hemex.model.PatienData
 import org.springframework.web.bind.annotation.PostMapping
-import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RestController
 
 
@@ -360,6 +358,58 @@ class PatientController {
           "Date": "2019-10-02",
           "Interpretation": "N/A",
           "Note": "PATIENT PRESENT WITH FEVER",
+          "Phenotype": "N/A",
+          "SCDBand": [],
+          "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/c1fd837d69f54eb99cc260c273a533a2.png"
+        }
+      ]
+    },
+    "PatientID": "1-001-0003-003-001",
+      "Site": "N/A",
+      "Results": [
+        {
+          "TestID": 11,
+          "DeviceID": "Alpha3B",
+          "Type": "SCD",
+          "Time": "18:59 PM",
+          "Date": "2019-10-02",
+          "Interpretation": "slow_start & low_current & roi_not_nominal",
+          "Note": "Patient is Homozygous",
+          "Phenotype": "AA",
+          "SCDBand": [
+            {
+              "HbType": "A2\nC\nE",
+              "Percentage": 12
+            },
+            {
+              "HbType": "S",
+              "Percentage": 8
+            },
+            {
+              "HbType": "F",
+              "Percentage": 4
+            },
+            {
+              "HbType": "A",
+              "Percentage": 76
+            }
+          ],
+          "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/52b2d2c207754ad3ad775dc708925a51.png"
+        }
+      ]
+    },
+    {
+      "PatientID": "1-001-0003-006-001",
+      "Site": "Site 2",
+      "Results": [
+        {
+          "TestID": 10,
+          "DeviceID": "Alpha3B",
+          "Type": "Malaria",
+          "Time": "10:13 AM",
+          "Date": "2019-11-02",
+          "Interpretation": "N/A",
+          "Note": "Patient present with fever",
           "Phenotype": "N/A",
           "SCDBand": [],
           "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/c1fd837d69f54eb99cc260c273a533a2.png"
