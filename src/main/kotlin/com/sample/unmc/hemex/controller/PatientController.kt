@@ -178,7 +178,7 @@ class PatientController {
       ]
     },
     {
-      "PatientID": "47-001-0001-002-002",
+      "PatientID": "1-001-0003-003-007",
       "Site": "N/A",
       "Results": [
         {
@@ -213,7 +213,7 @@ class PatientController {
       ]
     },
     {
-      "PatientID": "47-001-0001-002-003",
+      "PatientID": "1-001-0003-003-006",
       "Site": "N/A",
       "Results": [
         {
@@ -248,7 +248,7 @@ class PatientController {
       ]
     },
     {
-      "PatientID": "47-001-0002-002-001",
+      "PatientID": "1-001-0003-003-004",
       "Site": "N/A",
       "Results": [
         {
@@ -283,7 +283,7 @@ class PatientController {
       ]
     },
     {
-      "PatientID": "1-001-0002-002-004",
+      "PatientID": "1-001-0003-003-005",
       "Site": "Site 2",
       "Results": [
         {
@@ -347,7 +347,7 @@ class PatientController {
       ]
     },
     {
-      "PatientID": "47-001-0002-009-001",
+      "PatientID": "1-001-0003-006-003",
       "Site": "Site 2",
       "Results": [
         {
@@ -357,7 +357,7 @@ class PatientController {
           "Time": "18:53 PM",
           "Date": "2019-10-02",
           "Interpretation": "N/A",
-          "Note": "PATIENT PRESENT WITH FEVER",
+          "Note": "High body temperature observed on patient.",
           "Phenotype": "N/A",
           "SCDBand": [],
           "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/c1fd837d69f54eb99cc260c273a533a2.png"
@@ -436,7 +436,7 @@ class PatientController {
       ]
     },
     {
-      "PatientID": "47-001-0001-009-001",
+      "PatientID": "1-001-0003-006-002",
       "Site": "Site 2",
       "Results": [
         {
@@ -446,7 +446,7 @@ class PatientController {
           "Time": "18:53 PM",
           "Date": "2019-10-02",
           "Interpretation": "N/A",
-          "Note": "PATIENT PRESENT WITH FEVER",
+          "Note": "No Malaria present",
           "Phenotype": "N/A",
           "SCDBand": [],
           "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/c1fd837d69f54eb99cc260c273a533a2.png"
