@@ -364,7 +364,26 @@ class PatientController {
         }
       ]
     },
-    "PatientID": "1-001-0003-003-001",
+    {
+      "PatientID": "47-001-0002-009-002",
+      "Site": "Site 2",
+      "Results": [
+        {
+          "TestID": 10,
+          "DeviceID": "Alpha3B",
+          "Type": "Malaria",
+          "Time": "18:53 PM",
+          "Date": "2019-10-02",
+          "Interpretation": "N/A",
+          "Note": "PATIENT PRESENT WITH FEVER",
+          "Phenotype": "N/A",
+          "SCDBand": [],
+          "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/c1fd837d69f54eb99cc260c273a533a2.png"
+        }
+      ]
+    },
+    {
+      "PatientID": "1-001-0003-003-001",
       "Site": "N/A",
       "Results": [
         {
@@ -410,24 +429,6 @@ class PatientController {
           "Date": "2019-11-02",
           "Interpretation": "N/A",
           "Note": "Patient present with fever",
-          "Phenotype": "N/A",
-          "SCDBand": [],
-          "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/c1fd837d69f54eb99cc260c273a533a2.png"
-        }
-      ]
-    },
-    {
-      "PatientID": "47-001-0002-009-002",
-      "Site": "Site 2",
-      "Results": [
-        {
-          "TestID": 10,
-          "DeviceID": "Alpha3B",
-          "Type": "Malaria",
-          "Time": "18:53 PM",
-          "Date": "2019-10-02",
-          "Interpretation": "N/A",
-          "Note": "PATIENT PRESENT WITH FEVER",
           "Phenotype": "N/A",
           "SCDBand": [],
           "ImageURL": "https://hemex-staging.s3.amazonaws.com/resultImages/c1fd837d69f54eb99cc260c273a533a2.png"
